@@ -1439,13 +1439,13 @@ canvas {
     margin: 0;
     margin-bottom: 32px;
     color: #fff;
-    font-weight: 900;
+    font-weight: 800;
     opacity: 0;
     visibility: hidden;
     transform: translateY(120px);
     transition-delay: 1000ms;
     transition: transform 2000ms ease, opacity 2000ms ease;
-    font-size: 90px;
+    font-size: 70px;
     line-height: 90px;
     letter-spacing: -0.02em;
     z-index: 30;
