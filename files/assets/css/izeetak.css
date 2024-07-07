@@ -217,9 +217,9 @@ canvas {
 
 .section-title__title {
     margin: 0;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--thm-black);
-    font-size: 50px;
+    font-size: 30px;
     line-height: 60px;
 }
 
