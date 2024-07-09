@@ -1189,7 +1189,7 @@
 
     .main-menu .mobile-nav__toggler {
         margin-right: 0;
-        padding: 33px 0;
+        /* padding: 33px 0; */
         display: inline-block;
     }
 
@@ -1229,7 +1229,7 @@
 
     .main-menu .mobile-nav__toggler {
         margin-right: 0;
-        padding: 33px 0;
+        /* padding: 33px 0; */
         display: inline-block;
     }
 
@@ -1258,7 +1258,7 @@
     }
 
     .main-menu-wrapper__right {
-        display: none;
+        display: block;
     }
 
     .main-menu-wrapper__left {
@@ -1266,7 +1266,7 @@
     }
 
     .main-menu-wrapper__logo {
-        margin-right: 0;
+        margin-left: 30%;
     }
 
     .main-menu-wrapper__main-menu {
@@ -1280,7 +1280,7 @@
 
     .main-menu .mobile-nav__toggler {
         margin-right: 0;
-        padding: 33px 0;
+        /* padding: 33px 0; */
         display: inline-block;
     }
 
