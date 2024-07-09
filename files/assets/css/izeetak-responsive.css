@@ -1289,7 +1289,9 @@
     }
 
 
-
+    .social-icons {
+        display: none;
+    }
 
 
 
@@ -1298,3 +1300,4 @@
 
 
 }
+
