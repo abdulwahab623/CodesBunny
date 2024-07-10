@@ -563,15 +563,72 @@ canvas {
 .pinterest {
     background-color: #bd081c;
 }
-
+.whatsapp {
+    background-color: #05d308;
+}
 .linkedin {
     background-color: #0077b5;
-}.main-menu-wrapper__call {
+}
+.main-menu-wrapper__call {
     position: relative;
     display: flex;
     align-items: center;
     margin-right: 80px;
 }
+
+
+#whatsapp-button {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    z-index: 1000;
+  }
+  
+  #whatsapp-button a {
+    display: block;
+    position: relative;
+  }
+  
+  #whatsapp-button img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .abc {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 110%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  #whatsapp-button a:hover .abc {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .abc::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #000 transparent transparent;
+  }
 
 .main-menu-wrapper__call-icon {
     font-size: 30px;
