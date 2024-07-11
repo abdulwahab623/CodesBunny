@@ -2887,7 +2887,7 @@ canvas {
 .testimonial-one {
     position: relative;
     display: block;
-    background-color: #92c0e6;
+    background-color: #dbe5ec;
     padding: 120px 0 60px;
     z-index: 1;
 }
@@ -3295,6 +3295,8 @@ canvas {
 /*--------------------------------------------------------------
 # Site Footer
 --------------------------------------------------------------*/
+
+
 .site-footer {
     position: relative;
     display: block;
@@ -3311,7 +3313,7 @@ canvas {
 .site-footer__top-inner {
     position: relative;
     display: block;
-    padding: 236px 0 120px;
+    padding: 160px 80px 20px 80px;
     z-index: 1;
 }
 
@@ -3598,10 +3600,10 @@ canvas {
 
 .site-footer__bottom-inner {
     position: relative;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
-    padding: 35px 0;
+    padding: 5px 0;
 }
 
 .site-footer__bottom-text {
@@ -3609,6 +3611,8 @@ canvas {
     font-weight: 500;
     margin: 0;
     color: #ada8ba;
+    justify-content: center;
+    text-align: center;
 }
 
 .site-footer__bottom-text a {
