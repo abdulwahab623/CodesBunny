@@ -134,7 +134,7 @@ ul {
     width: 100%;
     height: 100%;
     background-position: 50% 50%;
-    opacity: 0.40;
+    opacity: 0.80;
     z-index: -1;
 }
 
@@ -556,6 +556,9 @@ canvas {
     background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
 }
 
+.twitter {
+    background-color: #37d3fa;
+}
 .youtube {
     background-color: #ff0000;
 }
@@ -564,7 +567,7 @@ canvas {
     background-color: #bd081c;
 }
 .whatsapp {
-    background-color: #05d308;
+    background-color: #29ee2d;
 }
 .linkedin {
     background-color: #0077b5;
@@ -3361,9 +3364,9 @@ canvas {
     justify-content: center;
     text-align: center;
     color: var(--thm-base);
-    background-color: #100d16;
+    /* background-color: #343236; */
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 16px;
     height: 45px;
     width: 45px;
     transform: rotate(0);
