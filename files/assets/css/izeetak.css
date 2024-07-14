@@ -481,6 +481,12 @@ canvas {
     display: block;
     float: left;
 }
+.main-menu-wrapper__center{
+    padding-left: 30%;
+    position: relative;
+    display: block;
+    float: center;
+}
 
 .main-menu-wrapper__logo {
     position: relative;
@@ -496,13 +502,38 @@ canvas {
     float: left;
 }
 
-.main-menu-wrapper__right {
+/* .main-menu-wrapper__right {
     position: relative;
     display: flex;
     float: right;
-    /* padding: 29.5px 0; */
+    
     align-items: center;
-}
+} */
+
+.main-menu-wrapper__right {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .main-menu-wrapper__right a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Size of the circle */
+    height: 40px; /* Size of the circle */
+    margin: 0 10px; /* Space between circles */
+    /* background-color: #555;  */
+    color: white; /* Icon color */
+    border-radius: 50%; /* Make the background a circle */
+    text-decoration: none;
+    font-size: 24px; /* Size of the icon */
+  }
+  
+  .main-menu-wrapper__right a .fab {
+    line-height: 50px; /* Vertically center the icon */
+  }
 
 
 .social-icons {
@@ -584,8 +615,8 @@ canvas {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     z-index: 1000;
   }
   

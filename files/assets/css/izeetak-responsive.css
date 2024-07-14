@@ -987,7 +987,9 @@
     }
 
 
-
+    .main-menu-wrapper__right {
+        display: none; /* Hide on mobile */
+      }
 
 
 }
@@ -1045,22 +1047,6 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -1084,21 +1070,6 @@
     .main-slider-two h2 {
         font-size: 85px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1144,16 +1115,6 @@
         margin-bottom: 25px;
     }
 
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -1168,11 +1129,9 @@
         display: none;
     }
 
-    .main-menu-wrapper__logo {
+    /* .main-menu-wrapper__logo {
         margin-right: 100px;
-    }
-
-
+    } */
 
 }
 
@@ -1183,13 +1142,13 @@
         display: none;
     }
 
-    .main-menu-wrapper__logo {
+    /* .main-menu-wrapper__logo {
         margin-right: 50px;
-    }
+    } */
 
     .main-menu .mobile-nav__toggler {
         margin-right: 0;
-        /* padding: 33px 0; */
+        
         display: inline-block;
     }
 
@@ -1197,20 +1156,7 @@
         color: var(--thm-black);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 }
 
 
@@ -1219,9 +1165,9 @@
         display: none;
     }
 
-    .main-menu-wrapper__logo {
+    /* .main-menu-wrapper__logo {
         margin-right: 50px;
-    }
+    } */
 
     .main-menu-wrapper__call {
         display: none;
@@ -1229,22 +1175,13 @@
 
     .main-menu .mobile-nav__toggler {
         margin-right: 0;
-        /* padding: 33px 0; */
+
         display: inline-block;
     }
 
     .main-menu-two .mobile-nav__toggler:hover {
         color: var(--thm-black);
     }
-
-
-
-
-
-
-
-
-
 
 
 }
@@ -1265,9 +1202,9 @@
         float: none;
     }
 
-    .main-menu-wrapper__logo {
+    /* .main-menu-wrapper__logo {
         margin-left: 30%;
-    }
+    } */
 
     .main-menu-wrapper__main-menu {
         float: right;
@@ -1280,7 +1217,7 @@
 
     .main-menu .mobile-nav__toggler {
         margin-right: 0;
-        /* padding: 33px 0; */
+        
         display: inline-block;
     }
 
@@ -1292,12 +1229,8 @@
     .social-icons {
         display: none;
     }
-
-
-
-
-
-
-
+    .main-menu-wrapper__right {
+        display: none; /* Hide on mobile */
+      }    
 }
 
