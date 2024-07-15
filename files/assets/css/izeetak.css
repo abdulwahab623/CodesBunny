@@ -586,7 +586,9 @@ canvas {
 .instagram {
     background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
 }
-
+.mail {
+    background-color: white;
+}
 .twitter {
     background-color: #37d3fa;
 }
@@ -979,7 +981,7 @@ canvas {
     font-size: 20px;
     color: var(--thm-primary);
     cursor: pointer;
-    transition: 500ms;
+    /* transition: 500ms; */
     margin-right: 20px;
 }
 
@@ -1538,7 +1540,7 @@ canvas {
 
 .main-slider .swiper-slide {
     position: relative;
-    background-color: var(--thm-black);
+    /* background-color: var(--thm-black); */
 }
 
 .main-slider .image-layer {
@@ -1554,7 +1556,7 @@ canvas {
     transition: transform 7000ms ease;
     z-index: 1;
     mix-blend-mode: luminosity;
-    opacity: .3;
+    opacity: .9;
 }
 
 
@@ -2751,7 +2753,7 @@ canvas {
     display: block;
     padding: 0 0 0;
     z-index: 1;
-    background-color: var(--thm-black);
+     background-color: var(--thm-black); 
 }
 
 .improve-one-bg {
@@ -2764,13 +2766,13 @@ canvas {
     background-position: center;
     background-size: cover;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0.5;
 }
 
 
 .improve-one-bg.jarallax div div {
-    background-color: var(--thm-black);
-    background-blend-mode: luminosity;
+    /* background-color: var(--thm-black); */
+    /* background-blend-mode: luminosity; */
 }
 
 .improve-one__left {
@@ -3265,7 +3267,7 @@ canvas {
     display: block;
     max-width: 1595px;
     width: 100%;
-    background-color: var(--thm-extra);
+    background-color: var(--thm-extra); 
     border-radius: var(--thm-bdr-radius);
     margin: 0 auto;
     z-index: 1;
@@ -3280,9 +3282,9 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: var(--thm-extra);
-    background-blend-mode: luminosity;
-    opacity: 0.15;
+    /* background-color: var(--thm-extra);
+    background-blend-mode: luminosity; */
+    opacity: 0.8;
     z-index: -1;
 }
 
@@ -5147,7 +5149,7 @@ canvas {
     display: block;
     padding: 147px 0 185px;
     z-index: 1;
-    background-color: var(--thm-black);
+    /* background-color: var(--thm-black); */
 }
 
 .page-header-bg {
@@ -5160,7 +5162,7 @@ canvas {
     background-size: cover;
     background-position: center;
     mix-blend-mode: luminosity;
-    opacity: 0.3;
+    opacity: 1.4;
 }
 
 
