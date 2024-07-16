@@ -149,7 +149,7 @@ canvas {
     -webkit-appearance: none;
     border: none;
     outline: none !important;
-    background-color: var(--thm-primary);
+    background-color: rgb(73, 197, 250);
     color: var(--thm-base);
     font-size: 14px;
     font-weight: 600;
@@ -169,7 +169,7 @@ canvas {
     left: 0;
     right: 0;
     height: 100%;
-    background-color: var(--thm-black);
+    background-color: rgb(73, 197, 250);
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
     transition-duration: .5s;
@@ -514,7 +514,7 @@ canvas {
     display: flex;
     justify-content: center; /* Center the icons horizontally */
     align-items: center;
-    padding: 20px;
+    padding: 27px;
   }
   
   .main-menu-wrapper__right a {
@@ -586,9 +586,11 @@ canvas {
 .instagram {
     background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
 }
-.mail {
-    background-color: white;
+
+.mail{
+    background-color: rgb(255, 255, 255);
 }
+
 .twitter {
     background-color: #37d3fa;
 }
@@ -820,14 +822,14 @@ canvas {
 .stricky-header .main-menu__list>li.current>a,
 .stricky-header .main-menu__list>li:hover>a {
     color: var(--thm-black);
-    text-shadow: 0 0 1px currentColor;
+    text-shadow: 0 0 1px currentColor;   
 }
 
 .main-menu .main-menu__list>li.current>a::before,
 .main-menu .main-menu__list>li:hover>a::before,
 .stricky-header .main-menu__list>li.current>a::before,
 .stricky-header .main-menu__list>li:hover>a::before {
-    transform: scale(1) translateY(-50%);
+    /* transform: scale(1) translateY(-50%); */
 }
 
 .main-menu .main-menu__list>li.current>a::before {
@@ -981,7 +983,7 @@ canvas {
     font-size: 20px;
     color: var(--thm-primary);
     cursor: pointer;
-    /* transition: 500ms; */
+    transition: 500ms;
     margin-right: 20px;
 }
 
@@ -1389,10 +1391,19 @@ canvas {
 }
 
 .mobile-nav__social a {
-    font-size: 16px;
-    color: var(--thm-primary);
-    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Size of the circle */
+    height: 40px; /* Size of the circle */
+    margin: 0 3px; /* Space between circles */
+    /* background-color: #555;  */
+    color: white; /* Icon color */
+    border-radius: 50%; /* Make the background a circle */
+    text-decoration: none;
+    font-size: 24px; /* Size of the icon */
 }
+
 
 .mobile-nav__social a+a {
     margin-left: 30px;
@@ -1681,7 +1692,7 @@ canvas {
     border-radius: 50%;
     margin: 0;
     text-align: center;
-    opacity: 0.3;
+    opacity: 0.6;
     transition: all 500ms ease;
 }
 
@@ -2766,12 +2777,12 @@ canvas {
     background-position: center;
     background-size: cover;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 
 .improve-one-bg.jarallax div div {
-    /* background-color: var(--thm-black); */
+     background-color: var(--thm-black); 
     /* background-blend-mode: luminosity; */
 }
 
@@ -3267,9 +3278,9 @@ canvas {
     display: block;
     max-width: 1595px;
     width: 100%;
-    background-color: var(--thm-extra); 
+    background-color: var(--thm-extra);
     border-radius: var(--thm-bdr-radius);
-    margin: 0 auto;
+    margin: 85px auto;
     z-index: 1;
 }
 
@@ -3282,10 +3293,10 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-color: var(--thm-extra);
-    background-blend-mode: luminosity; */
+    /* background-color: var(--thm-extra); */
+    background-blend-mode: luminosity;
     opacity: 0.8;
-    z-index: -1;
+    z-index: -1
 }
 
 
@@ -3293,7 +3304,7 @@ canvas {
     position: relative;
     display: block;
     text-align: center;
-    padding: 108px 0 120px;
+    padding: 40px 0 120px;
 }
 
 .cta-one__sub-title {
@@ -3349,7 +3360,7 @@ canvas {
 .site-footer__top-inner {
     position: relative;
     display: block;
-    padding: 160px 80px 20px 80px;
+    padding: 50px 80px 20px 80px;
     z-index: 1;
 }
 
@@ -5147,7 +5158,7 @@ canvas {
 .page-header {
     position: relative;
     display: block;
-    padding: 147px 0 185px;
+    padding:257px 0 185px;
     z-index: 1;
     /* background-color: var(--thm-black); */
 }
@@ -5161,8 +5172,8 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    mix-blend-mode: luminosity;
-    opacity: 1.4;
+    /* mix-blend-mode: luminosity; */
+    opacity: 0.9;
 }
 
 
@@ -5185,7 +5196,7 @@ canvas {
     font-size: 50px;
     color: var(--thm-base);
     line-height: 50px;
-    font-weight: 900;
+    font-weight: 750;
 }
 
 .thm-breadcrumb {
@@ -5196,7 +5207,7 @@ canvas {
 .thm-breadcrumb li {
     position: relative;
     display: inline-block;
-    color: #ada8ba;
+    color: #fefefe;
     font-size: 16px;
     font-weight: 500;
     -webkit-transition: all 500ms ease;
@@ -5208,7 +5219,7 @@ canvas {
 }
 
 .thm-breadcrumb li a {
-    color: #ada8ba;
+    color: #fefefe;
     font-size: 16px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -6190,7 +6201,8 @@ canvas {
 }
 
 .comment-form__input-box input[type="text"],
-.comment-form__input-box input[type="email"] {
+.comment-form__input-box input[type="email"],
+.comment-form__input-box input[type="number"] {
     height: 70px;
     width: 100%;
     border: none;
