@@ -1971,19 +1971,20 @@ canvas {
     position: relative;
     display: flex;
     align-items: center;
-    padding-top: 5px;
+    padding-top: 25px;
 }
 
-.feature-one__icon span {
+.im {
+    width: 50px;
     position: relative;
     display: inline-block;
-    font-size: 65px;
+    font-size: 25px;
     color: var(--thm-extra);
     transform: scale(1);
     transition: transform 500ms linear, color 500ms linear;
 }
 
-.feature-one__single:hover .feature-one__icon span {
+.feature-one__single:hover .im {
     transform: scale(.9);
     color: var(--thm-primary);
 }
