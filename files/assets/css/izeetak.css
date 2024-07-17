@@ -1283,7 +1283,7 @@ canvas {
 
 .mobile-nav__content {
     width: 300px;
-    background-color: var(--thm-black);
+    background-color: var(--thm-novablue);
     z-index: 10;
     position: relative;
     height: 100%;
@@ -1325,11 +1325,11 @@ canvas {
 
 .mobile-nav__content .main-menu__list ul {
     display: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(236, 236, 236, 0.1);
 }
 
 .mobile-nav__content .main-menu__list li:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(228, 226, 226, 0.1);
 }
 
 .mobile-nav__content .main-menu__list li a {
@@ -1352,7 +1352,7 @@ canvas {
 .mobile-nav__content .main-menu__list li a button {
     width: 30px;
     height: 30px;
-    background-color: var(--thm-primary);
+    background-color: #455066;
     border: none;
     outline: none;
     color: #fff;
