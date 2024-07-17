@@ -232,6 +232,7 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
     .about-one__left {
         max-width: 600px;
         margin: 0 auto;
@@ -579,6 +580,8 @@
     .share-the-joy__btn {
     margin-left: 115px;
     }
+
+    
     .share-the-joy__pra {
     font-size: 16px;
     color: white;
@@ -587,6 +590,8 @@
     margin-bottom: 59px;
     text-align: center;
 }
+
+
 
 
     .share-the-joy__trusted {
@@ -1079,6 +1084,17 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-widget__about,
+    .footer-widget__links,
+    .footer-widget__contact,
+    .footer-widget__newsletter {
+        margin-bottom: 30px;
+    }
+
+    .footer-widget__about-social a {
+        height: 40px;
+        width: 40px;
+    }
     #main-slider-pagination {
         max-width: 720px;
     }
