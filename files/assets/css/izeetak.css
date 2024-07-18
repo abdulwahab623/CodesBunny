@@ -3352,7 +3352,7 @@ canvas {
 }
 
 .cta-one__btn {
-    background-color: var(--thm-black);
+    background-color: var(--thm-novablue);
 }
 
 .cta-one__btn:after {
@@ -3674,7 +3674,7 @@ canvas {
     margin: 0 auto;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: #415375;
+    background-color: #313f5a;
 }
 
 .site-footer__bottom-inner {
@@ -5208,6 +5208,46 @@ canvas {
     opacity: 0.9;
 }
 
+
+
+.page-header-bggg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.page-header-bggg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: 2; /* Ensure this is on top of the background image but below other content */
+}
+
+.page-header__innerr {
+    position: relative;
+    z-index: 3; /* Ensure this is on top of the overlay */
+    color: white; /* Adjust text color to contrast with the dark overlay */
+    text-align: left; /* Center align the text if needed */ 
+}
+
+.page-header__innerr h2{
+    
+    color: white;
+    font-size: 50px;
+    
+    line-height: 50px;
+    font-weight: 750;
+}
 
 .page-header-shape {
     position: absolute;
