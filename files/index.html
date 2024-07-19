@@ -56,41 +56,12 @@
     <header class="main-header clearfix">
       <div class="main-header__top clearfix">
         <div class="main-header__top-inner clearfix">
-          <div class="main-header__top-left">
-            <ul class="list-unstyled main-header__top-address">
-              <li>
-                <div class="icon">
-                  <span class="icon-pin"></span>
-                </div>
-                <div class="text">
-                  <p>Gulshan e Madina p-46 B. Faisalabad</p>
-                </div>
-              </li>
-              <li>
-                <div class="icon">
-                  <span class="icon-email"></span>
-                </div>
-                <div class="text">
-                  <p>
-                    <a href="mailto:needhelp@company.com">CodesBunny@gmail.com</a>
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
           <div class="main-header__top-right">
             <div class="main-header__top-right-text">
               <p>
                 <span>Now Hiring:</span> Are you a driven and motivated 1st
                 Line IT Support Engineer?
               </p>
-            </div>
-            <div class="main-header__top-right-social">
-
-              <!-- <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a> -->
             </div>
           </div>
         </div>
@@ -140,13 +111,8 @@
               </div>
             </div>
             <div class="main-menu-wrapper__right">
-              <a href="mailto:your-email@example.com" class="mail" ><img src="assets/images/CodesBunny/Gmailicon.png" style="width: 30px;" alt="" ></a>
-
-              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-              <!-- <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> -->
-              <!-- <a href="#" class="twitter"><i class="fab fa-x-twitter"></i></a> -->
-              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+              <a href="contact.html" class="nav__btn nav-btn">Get Free Quote Now</a>
+            
             </div>
           </div>
         </div>
@@ -161,20 +127,27 @@
 
     <!--Main Slider Start-->
     <section class="main-slider">
-      <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
-    "effect": "fade",
-     "pagination": {
-        "el": "#main-slider-pagination",
-        "type": "bullets",
-        "clickable": true
-      },
-    "navigation": {
-        "nextEl": "#main-slider__swiper-button-next",
-        "prevEl": "#main-slider__swiper-button-prev"
-    },
-    "autoplay": {
-        "delay": 5000
-    }}'>
+      <div class="swiper-container thm-swiper__slider" data-swiper-options='{
+        "slidesPerView": 1,
+        "loop": true,
+        "effect": "fade",
+        "speed": 1000,
+        "fadeEffect": {
+            "crossFade": true
+        },
+        "pagination": {
+            "el": "#main-slider-pagination",
+            "type": "bullets",
+            "clickable": true
+        },
+        "navigation": {
+            "nextEl": "#main-slider__swiper-button-next",
+            "prevEl": "#main-slider__swiper-button-prev"
+        },
+        "autoplay": {
+            "delay": 5000
+        }
+    }'>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="image-layer" style="
@@ -301,56 +274,7 @@
     <!--Brand One Start-->
     <section class="brand-one">
       <div class="container">
-        <div class="row">
-          <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-            <!--Feature One Single-->
-            <div class="feature-one__single">
-              <div class="feature-one__icon">
-                <img class="im" src="assets/images/CodesBunny/Vector1.png"  alt="">
-
-                <!-- <span class="icon-innovation"></span> -->
-              </div>
-              <div class="feature-one__text">
-                <h3>Web Development</h3>
-                <p>
-                  we build websites that are optimized for performance,
-                  security, and scalability.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-            <!--Feature One Single-->
-            <div class="feature-one__single">
-              <div class="feature-one__icon">
-                <img class="im" src="assets/images/CodesBunny/mblapp.png"  alt="">
-              </div>
-              <div class="feature-one__text">
-                <h3>App Development</h3>
-                <p>
-                  We focus on creating high-performance mobile applications
-                  for Android and iOS platforms.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-            <!--Feature One Single-->
-            <div class="feature-one__single">
-              <div class="feature-one__icon">
-                <img class="im" src="assets/images/CodesBunny/Vector2.png"  alt="">
-              </div>
-              <div class="feature-one__text">
-                <h3>Digital Marketing</h3>
-                <p>
-                  Our digital marketing services aim to boost your brand's
-                  visibility.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--  <div
+         <div
             class="thm-swiper__slider swiper-container"
             data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
                     "0": {
@@ -429,7 +353,7 @@
               </div>
              
             </div>
-          </div> -->
+          </div>
       </div>
     </section>
     <!--Brand One End-->
@@ -587,19 +511,7 @@
                   </li>
                 </ul>
               </div>
-              <br>
-              <!-- <div class="about-one__it-solutions">
-                  <div class="about-one__it-solutions-icon">
-                    <span class="icon-computer"></span>
-                  </div>
-                  <div class="about-one__it-solutions-text-box">
-                    <p class="about-one__it-solutions-text">
-                      We Run all Kinds of IT Solutions & Services <br />
-                      that Vow your Success
-                    </p>
-                  </div>
-                </div> -->
-              <a href="about.html" class="about-one__btn thm-btn">Read More</a>
+              <a href="about.html" class="aboutHome__btn">Read More</a>
             </div>
           </div>
         </div>
@@ -694,9 +606,8 @@
                   Custom IT Software Development
                 </h2>
                 <p class="share-the-joy__pra">
-                  Transforming Ideas into Tailored Solutions <br />
-                  In today's fast-paced digital landscape, businesses require
-                  unique solutions to stand out and stay competitive.
+                  Transforming Ideas into Tailored Solutions In today's fast-paced digital landscape,
+                   businesses require unique solutions to stand out and stay competitive.
                 </p>
 
                 <a href="details.html" class="share-the-joy__btn thm-btn">Read More</a>
@@ -709,17 +620,8 @@
               <div class="share-the-joy__right">
                 <div class="share-the-joy__img-box">
                   <div class="share-the-joy__img wow fadeInRight" data-wow-duration="1500ms">
-                    <img src="assets/images/resources/share-the-joy-img-1.png" alt="" class="float-bob-2" />
+                    <img src="assets/images/CodesBunny/hms.jpg" alt="" class="float-bob-2" />
                   </div>
-                  <!-- <div
-                      class="share-the-joy__trusted wow fadeIn"
-                      data-wow-duration="1500ms"
-                    >
-                      <span class="icon-social-media"></span>
-                      <div class="share-the-joy__trusted__content">
-                        <p>Trusted by</p>
-                        <h3 class="odometer" data-count="8800">00</h3>
-                      </div> -->
                 </div>
               </div>
             </div>
@@ -878,7 +780,7 @@
                 <img src="assets/images/CodesBunny/image10.png" alt="" />
               </div>
               <div class="improve-one__project-complete">
-                <p>Grow business With CodesBunny</p>
+                <p>Grow business With <span>CodesBunny</span></p>
               </div>
             </div>
           </div>
@@ -1170,7 +1072,7 @@
               We’ll Help You Overcome Your <br />
               Technology Challenges
             </h2>
-            <a href="contact.html" class="cta-one__btn thm-btn">Read More</a>
+            <a href="contact.html" class="cta-one__btn thm-btn">Get Free Quote Now</a>
           </div>
         </div>
       </div>
@@ -1181,7 +1083,7 @@
   <!--Site Footer One Start-->
   <footer class="site-footer">
     <div class="site-footer__top">
-      <div class="containerf">
+      <div class="container">
         <div class="site-footer__top-inner">
           <!-- <div class="site-footer-map" style="
                   background-image: url(assets/images/shapes/site-footer-mape.png);
@@ -1197,15 +1099,7 @@
                   There are many vari of pass of lorem ipsum availab but the
                   majority have suffered in some forms.
                 </p>
-                <div class="footer-widget__about-social">
-                  <a href="mailto:your-email@example.com"  class="mail" ><img src="assets/images/CodesBunny/Gmailicon.png" style="width: 30px;" alt="" ></a>
-
-                  <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
-                  <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-                  <!-- <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> -->
-                  <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                  <!-- <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> -->
-                </div>
+                
               </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-6 col=sm-6 col-xs-12 wow fadeInUp" data-wow-delay="200ms">
@@ -1226,10 +1120,10 @@
             </div>
             <div class="col-xl-3 col-lg-3 col-md-6 col=sm-6 col-xs-12 wow fadeInUp" data-wow-delay="200ms">
               <div class="footer-widget__column footer-widget__links clearfix">
-                <h3 class="footer-widget__title">Links</h3>
+                <h3 class="footer-widget__title">Quick Links</h3>
                 <ul class="footer-widget__links-list list-unstyled clearfix">
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="about.html">Who are we?</a></li>
                   <li><a href="services.html">Services</a></li>
                   <li><a href="news.html">Blog</a></li>
                   <li><a href="contact.html">Contact Us</a></li>
@@ -1243,6 +1137,7 @@
                                 </ul> -->
               </div>
             </div>
+
             <div class="col-xl-3 col-lg-4 col-md-6 col=sm-6 col-xs-12 wow fadeInUp" data-wow-delay="300ms">
               <div class="footer-widget__column footer-widget__contact">
                 <h3 class="footer-widget__title">Contact</h3>
@@ -1272,9 +1167,20 @@
                     </div>
                   </li>
                 </ul>
+                
+              </div>
+              <div class="footer-widget__about-social">
+                <a href="mailto:your-email@example.com"  class="mail" ><img src="assets/images/CodesBunny/Gmailicon.png" style="width: 30px;" alt="" ></a>
+
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                <!-- <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> -->
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> -->
+              </div>
               </div>
             </div>
-          </div>
+       
         </div>
       </div>
     </div>
