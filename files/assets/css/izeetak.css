@@ -5965,7 +5965,109 @@ canvas {
 .simialr-work .project-one__single {
     margin-bottom: 30px;
 }
-
+/*--------------------------------------------------------------
+# News sections hms
+--------------------------------------------------------------*/
+@keyframes fadeInFromSide {
+    from {
+      opacity: 0;
+      transform: translateX(50px); /* Move from the right side */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); /* Move to the original position */
+    }
+  }
+  
+  @keyframes fadeInFromSideLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px); /* Move from the left side */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); /* Move to the original position */
+    }
+  }
+  
+  /* Default state before animation starts */
+  .news-img, .news-text-wrapper {
+    opacity: 0;
+    transform: translateX(0); /* Ensure starting from original position */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
+  }
+  
+  /* Apply the animation */
+  .news-img-animate {
+    animation: fadeInFromSide 1s forwards;
+  }
+  
+  .news-text-wrapper-animate {
+    animation: fadeInFromSideLeft 1s forwards;
+  }
+  
+  /* Additional styling */
+  .news-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0; /* Increase bottom margin for better spacing */
+  }
+  
+  .news-img {
+    margin-bottom: 20px; /* Add margin for better spacing */
+  }
+  
+  .news-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px; /* Optional: add some border radius for a rounded corner effect */
+  }
+  
+  .news-text-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px 20px 20px; /* Add padding for better spacing */
+    /* background-color: #f9f9f9;  */
+    border-radius: 5px; /* Optional: add some border radius */
+  }
+  
+  .news-text-content {
+    margin: 0 20px 20px 20px; /* Add margin for better spacing */
+  }
+  
+  .news-title {
+    margin-bottom: 15px; /* Add margin for better spacing */
+    color: white;
+  }
+  
+  .news-description {
+    margin-bottom: 0; /* Remove bottom margin */
+    color: rgb(170, 170, 172);
+  }
+  
+  @media (max-width: 991px) {
+    .news-row {
+      flex-direction: column;
+    }
+  }
+  
+  .news-img-col-left {
+    order: 1;
+  }
+  
+  .news-text-col-right {
+    order: 2;
+  }
+  
+  .news-text-col-left {
+    order: 1;
+  }
+  
+  .news-img-col-right {
+    order: 2;
+  }
 /*--------------------------------------------------------------
 # News Details
 --------------------------------------------------------------*/
