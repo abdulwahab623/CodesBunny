@@ -1,5 +1,5 @@
 // particles-config.js
-particlesJS("particles-js", {
+particlesJS("particles-jss", {
   "particles": {
     "number": {
       "value": 450,

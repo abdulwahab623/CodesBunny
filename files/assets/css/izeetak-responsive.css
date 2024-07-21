@@ -498,9 +498,9 @@
         margin-bottom: 0px;
     }
 
-    .testimonial-one__carousel.owl-theme .owl-nav {
+    /* .testimonial-one__carousel.owl-theme .owl-nav {
         display: none;
-    }
+    } */
 
     .cta-two__container {
         padding: 0 0;
@@ -969,9 +969,9 @@
         font-size: 15px;
     }
 
-    .testimonial-one__carousel.owl-theme .owl-nav {
+    /* .testimonial-one__carousel.owl-theme .owl-nav {
         display: none;
-    }
+    } */
 
     .testimonial-one__single {
         padding: 60px 20px 50px;

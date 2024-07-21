@@ -9,13 +9,13 @@ if (('#particles-js').length) {
                 }
             },
             "color": {
-                "value": "#ffffff" //---------
+                "value": "#333333" //---------
             },
             "shape": {
                 "type": "circle",
                 "stroke": {
                     "width": 0,
-                    "color": "#ffffff"
+                    "color": "#333333"
                 },
                 "polygon": {
                     "nb_sides": 5
@@ -49,7 +49,7 @@ if (('#particles-js').length) {
             "line_linked": {
                 "enable": true,
                 "distance": 150,
-                "color": "#ffffff", //--------
+                "color": "#333333", //--------
                 "opacity": 0.3, //--------
                 "width": 1
             },

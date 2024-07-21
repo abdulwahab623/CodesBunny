@@ -45,6 +45,20 @@
   <!-- template styles -->
   <link rel="stylesheet" href="assets/css/izeetak.css" />
   <link rel="stylesheet" href="assets/css/izeetak-responsive.css" />
+  <style>
+    #particles-jsss {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    opacity: 0.80;
+    z-index: -1;
+}
+  </style>
 </head>
 
 <body>
@@ -71,7 +85,8 @@
           <div class="main-menu-wrapper-inner clearfix">
             <div class="main-menu-wrapper__left clearfix">
               <div class="main-menu-wrapper__logo">
-                <a href="index.html"><img src="assets/images/CodesBunny/Artboardd.png" style="width: 150px;" alt="CodesBunny" /></a>
+                <a href="index.html"><img src="assets/images/CodesBunny/Artboardd.png" style="width: 150px;"
+                    alt="CodesBunny" /></a>
               </div>
             </div>
             <div class="main-menu-wrapper__center">
@@ -112,7 +127,7 @@
             </div>
             <div class="main-menu-wrapper__right">
               <a href="contact.html" class="nav__btn nav-btn">Get Free Quote Now</a>
-            
+
             </div>
           </div>
         </div>
@@ -127,71 +142,53 @@
 
     <!--Main Slider Start-->
     <section class="main-slider">
+      <div id="particles-jsss"></div>
       <div class="swiper-container thm-swiper__slider" data-swiper-options='{
-        "slidesPerView": 1,
-        "loop": true,
-        "effect": "fade",
-        "speed": 1000,
-        "fadeEffect": {
-            "crossFade": true
-        },
-        "pagination": {
-            "el": "#main-slider-pagination",
-            "type": "bullets",
-            "clickable": true
-        },
-        "navigation": {
-            "nextEl": "#main-slider__swiper-button-next",
-            "prevEl": "#main-slider__swiper-button-prev"
-        },
-        "autoplay": {
-            "delay": 5000
-        }
-    }'>
+          "slidesPerView": 1,
+          "loop": false,
+          "effect": "fade",
+          "speed": 1000,
+          "fadeEffect": {
+              "crossFade": true
+          },
+          "pagination": {
+              "el": "#main-slider-pagination",
+              "type": "bullets",
+              "clickable": true
+          },
+          "navigation": {
+              "nextEl": "#main-slider__swiper-button-next",
+              "prevEl": "#main-slider__swiper-button-prev"
+          },
+          "autoplay": {
+              "delay": 5000
+          }
+      }'>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="image-layer" style="
-                  background-image: url(assets/images/CodesBunny/banna1.png);
-                "></div>
-            <!-- <div class="image-layer-overlay"></div> -->
-            <!-- /.image-layer -->
-            <!-- <div class="main-slider-shape-1">
-                <img
-                  src="assets/images/shapes/main-slider-shape-1.png"
-                  alt=""
-                />
-              </div> -->
+            
+            <div class="image-layer" style="background-image: url(assets/images/CodesBunny/banna1.png);"></div>
+
+            <div class="image-layer-overlay"></div>
+            
             <div class="container">
               <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                   <div class="main-slider__content">
-                    <h2>
-                      Welcome to Codesbunny <br />
-                      Where Innovation Meets Excellence
-                    </h2>
-                    <p>
-                      At Codesbunny, we are passionate about turning ideas
-                      into reality through cutting-edge software solutions and
-                      web development services.
-                    </p>
-                    <a href="about.html" class="thm-btn">Read More</a>
+                    <h2>Welcome to Codesbunny <br /> Where Innovation Meets Excellence</h2>
+                    <p>At Codesbunny, we are passionate about turning ideas into reality through cutting-edge software
+                      solutions and web development services.</p>
+                    <a href="about.html" class="sliderthm-btn">Read More</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
+          <!-- <div class="swiper-slide">
             <div class="image-layer" style="
                   background-image: url(assets/images/CodesBunny/banna1.png);
                 "></div>
-            <!-- <div class="image-layer-overlay"></div> -->
-            <!-- /.image-layer -->
-            <!-- <div class="main-slider-shape-1">
-                <img
-                  src="assets/images/shapes/main-slider-shape-1.png"
-                  alt=""
-                />
-              </div> -->
+          
             <div class="container">
               <div class="row">
                 <div class="col-lg-8">
@@ -206,19 +203,12 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
+          </div> -->
+          <!-- <div class="swiper-slide">
             <div class="image-layer" style="
                   background-image: url(assets/images/CodesBunny/banna1.png);
                 "></div>
-            <!-- <div class="image-layer-overlay"></div> -->
-            <!-- /.image-layer -->
-            <!-- <div class="main-slider-shape-1">
-                <img
-                  src="assets/images/shapes/main-slider-shape-1.png"
-                  alt=""
-                />
-              </div> -->
+          
             <div class="container">
               <div class="row">
                 <div class="col-lg-8">
@@ -233,23 +223,24 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <!-- <div class="swiper-pagination" id="main-slider-pagination"></div> -->
-        <div class="main-slider__nav">
+        <!-- <div class="main-slider__nav">
           <div class="swiper-button-prev" id="main-slider__swiper-button-next">
             <i class="icon-right-arrow icon-left-arrow"></i>
           </div>
           <div class="swiper-button-next" id="main-slider__swiper-button-prev">
             <i class="icon-right-arrow"></i>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!--Main Slider End-->
     <div class="social-icons">
-      <a href="mailto:your-email@example.com" class="mail" style="color: black;"><img src="assets/images/CodesBunny/Gmailicon.png" style="width: 30px;" alt="" > <span>&nbsp;Mail</span></a>
+      <a href="mailto:your-email@example.com" class="mail" style="color: black;"><img
+          src="assets/images/CodesBunny/Gmailicon.png" style="width: 30px;" alt=""> <span>&nbsp;Mail</span></a>
 
       <a href="https://linkedin.com" target="_blank" class="linkedin"><i class="fab fa-linkedin"> </i>
         <span>&nbsp;LinkedIn</span></a>
@@ -274,9 +265,7 @@
     <!--Brand One Start-->
     <section class="brand-one">
       <div class="container">
-         <div
-            class="thm-swiper__slider swiper-container"
-            data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
+        <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
                     "0": {
                         "spaceBetween": 30,
                         "slidesPerView": 2
@@ -301,59 +290,58 @@
                         "spaceBetween": 100,
                         "slidesPerView": 6
                     }
-                }}'
-          >
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-1.png" alt="" />
-              </div>
-             
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-2.png" alt="" />
-              </div>
-             
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-3.png" alt="" />
-              </div>
-           
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-4.png" alt="" />
-              </div>
-             
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-5.png" alt="" />
-              </div>
-             
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-6.png" alt="" />
-              </div>
-             
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-1.png" alt="" />
-              </div>
-            
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-2.png" alt="" />
-              </div>
-             
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-3.png" alt="" />
-              </div>
-            
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-4.png" alt="" />
-              </div>
-             
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-5.png" alt="" />
-              </div>
-              
-              <div class="swiper-slide">
-                <img src="assets/images/brand/brand-1-6.png" alt="" />
-              </div>
-             
+                }}'>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-1.png" alt="" />
             </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-2.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-3.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-4.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-5.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-6.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-1.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-2.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-3.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-4.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-5.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/images/brand/brand-1-6.png" alt="" />
+            </div>
+
           </div>
+        </div>
       </div>
     </section>
     <!--Brand One End-->
@@ -447,31 +435,31 @@
             <div class="about-one__right">
               <div class="section-title text-left">
                 <span class="section-title__tagline">Get to Know About us</span>
-                <h2 class="section-title__title">
+                <h2 class="Aboutsection-title__title">
                   Four Reasons to Choose Codesbunny
                 </h2>
               </div>
               <p class="about-one__text">
-                <strong style="color: black">Customized Solutions: </strong>
+                <strong style="color: #333333">Customized Solutions: </strong>
                 We provide tailored software and web development services to
                 meet the unique needs of your business, ensuring optimal
                 results and satisfaction.
               </p>
               <p class="about-one__text">
-                <strong style="color: rgb(19, 19, 19)">Expert Team: </strong>
+                <strong style="color: #333333">Expert Team: </strong>
                 Our team of experienced professionals is dedicated to
                 delivering high-quality, innovative solutions that drive
                 growth and success for your business.
               </p>
               <p class="about-one__text">
-                <strong style="color: rgb(19, 19, 19)">Cutting-Edge Technology:
+                <strong style="color: #333333">Cutting-Edge Technology:
                 </strong>
                 Our team of experienced professionals is dedicated to
                 delivering high-quality, innovative solutions that drive
                 growth and success for your business.
               </p>
               <p class="about-one__text">
-                <strong style="color: rgb(19, 19, 19)">Comprehensive Support:
+                <strong style="color: #333333">Comprehensive Support:
                 </strong>
                 We provide full support from initial consultation to
                 post-launch maintenance to ensure your project runs smoothly
@@ -523,23 +511,24 @@
     <section class="services-one">
       <div class="container">
         <div class="section-title text-center">
-          <span class="section-title__taglinee">Wide Range of Services</span>
-          <h2 class="section-title__title">What We’re Offering</h2>
+          <span class="sersection-title__tagline">Wide Range of Services</span>
+          <h2 class="sersection-title__title">What We’re Offering</h2>
         </div>
         <div class="row">
           <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">
             <!--Services One Single-->
             <div class="services-one__single">
               <div class="services-one__icon">
-                <img class="im" src="assets/images/CodesBunny/Vector1.png"  alt="">
+                <span class="icon-"></span>
+                <!-- <img class="im" src="assets/images/CodesBunny/Vector1.png" alt=""> -->
               </div>
               <h3 class="services-one__title">
                 <a href="web.html">Web Development <br />
                   Services</a>
               </h3>
               <p class="services-one__text">
-                Web Development; Enhance your online presence with our custom
-                web development solutions. We build responsive, user-friendly
+                Web Development Enhance your online presence with custom
+                 solutions. We build responsive, user-friendly
                 websites that drive engagement and conversions.
               </p>
               <div class="services-one__arrow">
@@ -551,7 +540,8 @@
             <!--Services One Single-->
             <div class="services-one__single">
               <div class="services-one__icon">
-                <img class="im" src="assets/images/CodesBunny/mblapp.png"  alt="">
+                <span class="icon-app-development"></span>
+                <!-- <img class="im" src="assets/images/CodesBunny/mblapp.png" alt=""> -->
               </div>
               <h3 class="services-one__title">
                 <a href="App.html">App Development <br />
@@ -571,14 +561,16 @@
             <!--Services One Single-->
             <div class="services-one__single">
               <div class="services-one__icon">
-                <img class="im" src="assets/images/CodesBunny/Vector2.png"  alt="">
+                <span class="icon-social-media"></span>
+           
+                <!-- <img class="im" src="assets/images/CodesBunny/Vector2.png" alt=""> -->
               </div>
               <h3 class="services-one__title">
                 <a href="Digital.html">Digital Marketing<br />
                   Services</a>
               </h3>
               <p class="services-one__text">
-                Boost your brand's visibility and reach with our comprehensive
+                Boost your brand's visibility and reach with our
                 digital marketing services. We offer SEO, social media
                 marketing, and PPC strategies to grow your business.
               </p>
@@ -607,10 +599,10 @@
                 </h2>
                 <p class="share-the-joy__pra">
                   Transforming Ideas into Tailored Solutions In today's fast-paced digital landscape,
-                   businesses require unique solutions to stand out and stay competitive.
+                  businesses require unique solutions to stand out and stay competitive.
                 </p>
 
-                <a href="details.html" class="share-the-joy__btn thm-btn">Read More</a>
+                <a href="details.html" class="share-the-joy__btn">Read More</a>
                 <div class="share-the-joy__shape-1">
                   <img src="assets/images/shapes/share-the-joy-shape-1.png" alt="" />
                 </div>
@@ -842,17 +834,17 @@
     <div id="particles-js"></div>
     <div class="container">
       <div class="row">
-        <div class="col-xl-4 col-lg-5">
-          <div class="testimonial-one__left">
-            <div class="section-title text-left">
-              <span class="section-title__tagline">Customers Feedbacks</span>
-              <h2 class="section-title__title">
-                What They’re Talking About Company
-              </h2>
-            </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 main">
+          <div class="Testsection-title">
+            <span class="Testsection-title__tagline">Customers Feedbacks</span>
+            <h2 class="testsection-title__title">
+              What They’re Talking About Company
+            </h2>
           </div>
         </div>
-        <div class="col-xl-8 col-lg-7">
+      </div>
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
           <div class="testimonial-one__right">
             <div class="testimonial-one__carousel owl-theme owl-carousel">
               <!--Testimonial One Single-->
@@ -870,7 +862,9 @@
                 </div>
                 <p class="testimonial-one__text">
 
-                  "Codesbunny delivered a web development solution that exceeded our expectations. Their dedication and attention to detail boosted our online presence and customer engagement. We highly recommend their exceptional service and innovative approach."</p>
+                  "Codesbunny delivered a web development solution that exceeded our expectations. Their dedication and
+                  attention to detail boosted our online presence and customer engagement. We highly recommend their
+                  exceptional service and innovative approach."</p>
                 <div class="testimonial-one__quote">
                   <span class="icon-right-quote"></span>
                 </div>
@@ -890,7 +884,9 @@
                 </div>
                 <p class="testimonial-one__text">
 
-                  "Codesbunny provided an outstanding custom IT solution that perfectly aligned with our business goals. Their app development expertise gave us a competitive edge, and their communication and support were impeccable. We're thrilled with results."                </p>
+                  "Codesbunny provided an outstanding custom IT solution that perfectly aligned with our business goals.
+                  Their app development expertise gave us a competitive edge, and their communication and support were
+                  impeccable. We're thrilled with results." </p>
                 <div class="testimonial-one__quote">
                   <span class="icon-right-quote"></span>
                 </div>
@@ -907,7 +903,9 @@
                   </div>
                 </div>
                 <p class="testimonial-one__text">
-                  "Working with Codesbunny transformed our digital marketing. Their plan boosted our online visibility, driving significant traffic and increasing conversions. Codesbunny's commitment to excellence is evident in their work. We highly recommend their services." </p>
+                  "Working with Codesbunny transformed our digital marketing. Their plan boosted our online visibility,
+                  driving significant traffic and increasing conversions. Codesbunny's commitment to excellence is
+                  evident in their work. We highly recommend their services." </p>
                 <div class="testimonial-one__quote">
                   <span class="icon-right-quote"></span>
                 </div>
@@ -944,25 +942,10 @@
               </div>
             </div>
             <div class="news-one__content">
-              <!-- <ul class="list-unstyled news-one__meta">
-                    <li>
-                      <a href="blogone.html"
-                        ><i class="far fa-user-circle"></i> by admin</a
-                      >
-                    </li> -->
-              <!-- <li>
-                      <a href="news-details.html"
-                        ><i class="far fa-comments"></i> 2 Comments</a
-                      >
-                    </li> -->
-              <!-- </ul> -->
+
               <h3 class="news-one__title">
                 <a href="blogone.html">The Role of Innovation in Driving Business Success?</a>
               </h3>
-              <!-- <p class="news-one__text">
-                    Lorem ipsum is simply free text used by copytyping
-                    refreshing.
-                  </p> -->
               <div class="news-one__read-more">
                 <a href="blogone.html" class="news-one__read-more-btn">Read More</a>
               </div>
@@ -970,7 +953,7 @@
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-          <!--News One Single-->
+
           <div class="news-one__single">
             <div class="news-one__img">
               <img src="assets/images/blog/news-one-img-2.jpg" alt="" />
@@ -985,18 +968,7 @@
               </div>
             </div>
             <div class="news-one__content">
-              <!-- <ul class="list-unstyled news-one__meta">
-                    <li>
-                      <a href="blogtwo.html"
-                        ><i class="far fa-user-circle"></i> by admin</a
-                      >
-                    </li>
-                     <li>
-                      <a href="news-details.html"
-                        ><i class="far fa-comments"></i> 2 Comments</a
-                      >
-                    </li> 
-                  </ul>-->
+
               <h3 class="news-one__title">
                 <a href="blogtwo.html">The Impact of Artificial Intelligence on Business</a>
               </h3>
@@ -1072,7 +1044,7 @@
               We’ll Help You Overcome Your <br />
               Technology Challenges
             </h2>
-            <a href="contact.html" class="cta-one__btn thm-btn">Get Free Quote Now</a>
+            <a href="contact.html" class="ctabtn">Get Free Quote Now</a>
           </div>
         </div>
       </div>
@@ -1095,11 +1067,9 @@
                   <a href="index.html"><img src="assets/images/loader.png" width="90px" alt="" /></a>
                   <h4 style="color:azure; margin-top: 30px;">CodesBunny</h4>
                 </div>
-                <p class="footer-widget__about-text">
-                  There are many vari of pass of lorem ipsum availab but the
-                  majority have suffered in some forms.
+                <p class="footer-widget__about-text">Welcome to thw world of Bunnies.
                 </p>
-                
+
               </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-6 col=sm-6 col-xs-12 wow fadeInUp" data-wow-delay="200ms">
@@ -1167,10 +1137,11 @@
                     </div>
                   </li>
                 </ul>
-                
+
               </div>
               <div class="footer-widget__about-social">
-                <a href="mailto:your-email@example.com"  class="mail" ><img src="assets/images/CodesBunny/Gmailicon.png" style="width: 30px;" alt="" ></a>
+                <a href="mailto:your-email@example.com" class="mail"><img src="assets/images/CodesBunny/Gmailicon.png"
+                    style="width: 30px;" alt=""></a>
 
                 <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
                 <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
@@ -1178,9 +1149,9 @@
                 <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
                 <!-- <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> -->
               </div>
-              </div>
             </div>
-       
+          </div>
+
         </div>
       </div>
     </div>
@@ -1213,13 +1184,12 @@
       <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
       <div class="logo-box">
-        <a href="index.html" aria-label="logo image"><img src="assets/images/loader.png" width="95px"
-            alt="" /></a>
-            <h3 style="color: white; margin-top: 32px; font-style:initial;">CodesBunny</h3>
+        <a href="index.html" aria-label="logo image"><img src="assets/images/loader.png" width="95px" alt="" /></a>
+        <h3 style="color: white; margin-top: 32px; font-style:initial;">CodesBunny</h3>
       </div>
       <!-- /.logo-box -->
       <div class="mobile-nav__container"></div>
-     
+
 
       <ul class="mobile-nav__contact list-unstyled">
         <li>
@@ -1234,7 +1204,8 @@
       <!-- /.mobile-nav__contact -->
       <div class="mobile-nav__top">
         <div class="mobile-nav__social">
-          <a href="mailto:your-email@example.com" class="mail" ><img src="assets/images/CodesBunny/Gmailicon.png" style="width: 30px;" alt="" ></a>
+          <a href="mailto:your-email@example.com" class="mail"><img src="assets/images/CodesBunny/Gmailicon.png"
+              style="width: 30px;" alt=""></a>
 
           <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
           <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
